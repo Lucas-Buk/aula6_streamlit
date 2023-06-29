@@ -10,7 +10,7 @@ st.set_page_config(  # Alternate names: setup_page, page, layout
 )
 st.header('Reconhecimento Óptico de Caracteres (OCR)') 
 
-st.write('### Faça o upload de uma imagem para usar o serviço ::')
+st.write('### Faça o upload de uma imagem para usar o serviço')
 
 # Função para utilizar o serviço de OCR
 def ocr(url, file, key):
