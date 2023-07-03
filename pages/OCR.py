@@ -31,7 +31,7 @@ if img is not None:
     col4.image(img, width=300)
 
 url = 'https://pg-aula3.cognitiveservices.azure.com/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=Read&language=en&gender-neutral-caption=False'
-key = 'e5c24d57caad490684fbff40c0171ef4'
+key = 'YOUR_KEY'
 
 if col1.button('Utilizar serviço'):
     if img is None:
