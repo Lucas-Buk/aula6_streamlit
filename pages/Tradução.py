@@ -22,7 +22,7 @@ def traducao(texto, trad_para):
               'to': trad_para}
 
     # Cabeçalhos
-    headers = {'Ocp-Apim-Subscription-Key': '1d714b32b3c4451c8aeb1ccc992b58a4',
+    headers = {'Ocp-Apim-Subscription-Key': 'YOUR_KEY',
                'Ocp-Apim-Subscription-Region': 'global',
                 'Content-type': 'application/json',
                 'X-ClientTraceId': str(uuid.uuid4())}
